@@ -17,7 +17,7 @@ A zero-dependency, TypeScript-first utility to safely define, validate, and type
 ## 📦 Installation
 
 ```bash
-npm install typed-env
+npm install typed-env-safe
 ```
 
 ---
@@ -40,7 +40,7 @@ SECRET_KEY=my-secret-key
 
 ```ts
 // env.ts
-import { defineEnvSchema } from 'typed-env';
+import { defineEnvSchema } from 'typed-env-safe';
 
 export const env = defineEnvSchema({
   NODE_ENV: {
@@ -63,7 +63,7 @@ export const env = defineEnvSchema({
 
 ```js
 // env.js
-const { defineEnvSchema } = require('typed-env');
+const { defineEnvSchema } = require('typed-env-safe');
 
 const env = defineEnvSchema({
   NODE_ENV: {
