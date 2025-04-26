@@ -1,0 +1,25 @@
+{
+  "name": "typed-env",
+  "version": "1.0.0",
+  "description": "A zero-dependency, TypeScript-first utility to safely define, validate, and type environment variables.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "env",
+    "typescript",
+    "validation",
+    "dotenv",
+    "typed-env",
+    "typed env"
+  ],
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.2",
+    "typescript": "^5.0.0"
+  }
+}
