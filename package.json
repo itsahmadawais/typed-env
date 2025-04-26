@@ -1,9 +1,10 @@
 {
-  "name": "typed-env",
+  "name": "typed-env-safe",
   "version": "1.0.0",
   "description": "A zero-dependency, TypeScript-first utility to safely define, validate, and type environment variables.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": "https://github.com/itsahmadawais/typed-env",
   "scripts": {
     "build": "tsc"
   },

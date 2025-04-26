@@ -1,4 +1,4 @@
-# 🔐 typed-env
+# 🔐 typed-env-safe
 
 A zero-dependency, TypeScript-first utility to safely define, validate, and type environment variables using schema-like syntax.
 
