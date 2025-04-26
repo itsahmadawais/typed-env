@@ -4,7 +4,10 @@
   "description": "A zero-dependency, TypeScript-first utility to safely define, validate, and type environment variables.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "https://github.com/itsahmadawais/typed-env",
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/itsahmadawais/typed-env-safe"
+  },
   "scripts": {
     "build": "tsc"
   },
